@@ -1,0 +1,128 @@
+/*  全体共通 */
+body {
+  background-color: #f0f0f0;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  font-size: 18px;
+}
+
+/* カード全体 */
+.card {
+  width: 95%;
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #ffe680;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.3); /* 影を強調 */
+}
+
+/* 白い本体 */
+.card-inner {
+  background: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+/* ヘッダー */
+.card-inner header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 20px;
+  background: transparent;
+  border-bottom: 3px solid #b0b0b0;
+}
+.card-inner header h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0;
+}
+.card-inner header h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0;
+}
+
+/* メイン画像 */
+.mainvisual img {
+  width: 100%;
+  display: block;
+  max-height: 600px;
+  object-fit: cover;
+  border-bottom: 3px solid #b0b0b0;
+}
+
+/* 説明文 */
+.description {
+  padding: 15px 20px;
+  text-align: center;
+  background: #fff8e6;
+  font-size: 16px;
+}
+
+/* 技リスト */
+.hobby ul {
+  list-style: none;
+  padding: 0 20px;
+  margin: 0;
+}
+
+.hobby li {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 30px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.hobby .move-text {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.hobby .move-text h3 {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 6px;
+}
+
+.hobby .move-text p {
+  font-size: 24px;
+  color: #555;
+  margin: 0;
+}
+
+/* 弱点・抵抗力・にげる */
+.bottom_bar {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 18px 20px;
+  border-top: 3px solid #b0b0b0;
+  background: #fff8e6;
+}
+.bottom_item {
+  width: 33%;
+  text-align: center;
+  font-size: 18px;
+}
+.bottom_item .material-icons {
+  font-size: 36px;
+  display: block;
+  margin-top: 8px;
+}
+
+/* フッター */
+.footer {
+  text-align: center;
+  font-size: 16px;
+  padding: 8px 0;
+  background-color: #ffe680;
+  border-top: 3px solid #b0b0b0;
+}
